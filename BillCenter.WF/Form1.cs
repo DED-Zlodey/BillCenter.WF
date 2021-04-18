@@ -102,7 +102,7 @@ namespace BillCenter.WF
             var service = hus.ServicesHousing.FirstOrDefault(x => x.ServiceName == selectedState);
             if (service != null)
             {
-                label4.Text = service.Price.ToString() + " рублей/мес х количество проживающих";
+                label4.Text = service.Price.ToString() + " рублей/мес.";
                 Price = service.Price;
             }
         }
