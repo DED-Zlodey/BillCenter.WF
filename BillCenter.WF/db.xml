@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Hus>
+<HouseProviderServices>
+  <HouseProviderService>
+	<Id>1</Id>
+    <ProviderName>ТГК-14</ProviderName>
+    <Descritpion>Теплоснабжение</Descritpion>
+  </HouseProviderService>
+  <HouseProviderService>
+	<Id>2</Id>
+    <ProviderName>ЧитаЭнерго</ProviderName>
+    <Descritpion>Электро энергия</Descritpion>
+  </HouseProviderService>
+</HouseProviderServices>
+<ServicesHousing>
+  <ServiceHousing>
+	<Id>1</Id>
+    <ProviderId>1</ProviderId>
+    <ServiceName>Теплоснабжение</ServiceName>
+    <ServiceDescription>Теплоснабжение</ServiceDescription>
+	<Price>1500</Price>
+  </ServiceHousing>
+  <ServiceHousing>
+	<Id>2</Id>
+    <ProviderId>2</ProviderId>
+    <ServiceName>Электроэнергия</ServiceName>
+    <ServiceDescription>Электроэнергия</ServiceDescription>
+	<Price>500</Price>
+  </ServiceHousing>
+</ServicesHousing>
+<ClientAccounts>
+  <ClientAccount>
+	<Id>1</Id>
+    <FirstName>Иваван</FirstName>
+    <LastName>Иванов</LastName>
+    <Patronymic>Иванович</Patronymic>
+	<NumberResident>1</NumberResident>
+  </ClientAccount>
+  <ClientAccount>
+	<Id>2</Id>
+    <FirstName>Сергей</FirstName>
+    <LastName>Сергеев</LastName>
+    <Patronymic>Сергеевич</Patronymic>
+	<NumberResident>2</NumberResident>
+  </ClientAccount>
+  <ClientAccount>
+	<Id>3</Id>
+    <FirstName>Какойто</FirstName>
+    <LastName>Какойтов</LastName>
+    <Patronymic>Какойтович</Patronymic>
+	<NumberResident>4</NumberResident>
+  </ClientAccount>
+</ClientAccounts>
+<Orders>
+  <Order>
+  <Id>1</Id>
+	<AccountId>1</AccountId>
+	<ServiceId>1</ServiceId>
+	<StartDate>2021-02-28T00:00:00</StartDate>
+	<EndDate>2021-03-31T00:00:00</EndDate>
+	<Cost>1550</Cost>
+	<CreateDate>2021-03-31T00:00:00</CreateDate>
+  </Order>
+  <Order>
+	<Id>2</Id>
+	<AccountId>1</AccountId>
+	<ServiceId>2</ServiceId>
+	<StartDate>2021-02-28T00:00:00</StartDate>
+	<EndDate>2021-03-31T00:00:00</EndDate>
+	<Cost>516.667</Cost>
+	<CreateDate>2021-03-31T00:00:00</CreateDate>
+  </Order>  
+  <Order>
+	<Id>3</Id>
+	<AccountId>2</AccountId>
+	<ServiceId>1</ServiceId>
+	<StartDate>2021-02-28T00:00:00</StartDate>
+	<EndDate>2021-03-31T00:00:00</EndDate>
+	<Cost>3100</Cost>
+	<CreateDate>2021-03-31T00:00:00</CreateDate>
+  </Order>  
+  <Order>
+	<Id>4</Id>
+	<AccountId>2</AccountId>
+	<ServiceId>2</ServiceId>
+	<StartDate>2021-02-28T00:00:00</StartDate>
+	<EndDate>2021-03-31T00:00:00</EndDate>
+	<Cost>1033.333</Cost>
+	<CreateDate>2021-03-31T00:00:00</CreateDate>
+  </Order>  
+  <Order>
+	<Id>5</Id>
+	<AccountId>3</AccountId>
+	<ServiceId>1</ServiceId>
+	<StartDate>2021-02-28T00:00:00</StartDate>
+	<EndDate>2021-03-31T00:00:00</EndDate>
+	<Cost>4650</Cost>
+	<CreateDate>2021-03-31T00:00:00</CreateDate>
+  </Order> 
+  <Order>
+	<Id>6</Id>
+	<AccountId>3</AccountId>
+	<ServiceId>2</ServiceId>
+	<StartDate>2021-02-28T00:00:00</StartDate>
+	<EndDate>2021-03-31T00:00:00</EndDate>
+	<Cost>1550</Cost>
+	<CreateDate>2021-03-31T00:00:00</CreateDate>
+  </Order> 
+</Orders>
+</Hus>
